@@ -1,0 +1,42 @@
+/***** GLOBALS *****/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}   
+
+.bckgrnd {
+    background-image: url(../Screens/1x/Zeichenfl%C3%A4che%201.png);
+    background-size: cover;
+}
+
+.clouds {
+    width: 300vw;height: 20vh; background-color: red;
+            background-image: url(clouds.png);
+            background-size: auto 100%;
+            position: relative;
+                left: 0px;
+}
+
+/***** eo GLOBALS *****/
+
+/***** PRESETS *****/
+
+.hoehe10 {height: 10vh}
+.hoehe20 {height: 20vh}
+.hoehe30 {height: 30vh}
+.hoehe40 {height: 40vh}
+.hoehe50 {height: 50vh}
+.hoehe60 {height: 60vh}
+.hoehe70 {height: 70vh}
+
+.breite20 {width: 20vw}
+.breite30 {width: 30vw}
+.breite40 {width: 40vw}
+.breite50 {width: 50vw}
+
+.flex {display: flex;}
+
+/***** eo PRESETS *****/
+

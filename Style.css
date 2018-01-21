@@ -1,0 +1,83 @@
+/***** GLOBALS *****/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}   
+
+.bckgrnd {
+    background-image: url(../Screens/1x/Zeichenfl%C3%A4che%201.png);
+    background-size: cover;
+}
+
+.clouds {
+    width: 300vw;
+    height: 40vh;
+    background-image:url(../Screens/Level_1_Wolken_Transparent.png);
+    background-size: auto 100%;
+    position: relative;
+    left: 0px;
+}
+
+.himmel {
+    width: 300vw;
+    height: 60vh;
+    background-image: url(../Screens/Level_1_Himmel.png);
+    background-size: auto 100%;
+    position: relative;
+    left 0px;
+}
+
+.baume {
+    width: 300vw;
+    height: 40vh;
+    background-image: url(../Screens/Level_1_B%C3%A4ume.png);
+    background-size: auto 100%;
+    position: relative;
+    left 0px;
+}
+.vordergrund {
+    width: 300vw;
+    height: 40vh;
+    background-image: url(../Screens/Level_1_Untergrund.png);
+    background-size: auto 100%;
+    position: relative;
+    left 0px;
+}
+
+.gameover {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Screens/Game_Over_Screen.png);
+    background-size: auto 100%;
+    position: relative;
+    left 0px;
+}
+
+/***** eo GLOBALS *****/
+
+/***** PRESETS *****/
+
+.hoehe10 {height: 10vh}
+.hoehe20 {height: 20vh}
+.hoehe30 {height: 30vh}
+.hoehe40 {height: 40vh}
+.hoehe50 {height: 50vh}
+.hoehe60 {height: 60vh}
+.hoehe70 {height: 70vh}
+
+.breite20 {width: 20vw}
+.breite30 {width: 30vw}
+.breite40 {width: 40vw}
+.breite50 {width: 50vw}
+.breite60 {width: 60vw}
+.breite70 {width: 70vw}
+.breite80 {width: 80vw}
+.breite90 {width: 90vw}
+.breite100 {width: 100vw}
+
+.flex {display: flex;}
+
+/***** eo PRESETS *****/
+
