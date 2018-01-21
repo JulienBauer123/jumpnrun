@@ -6,50 +6,50 @@ html, body {
     margin: 0;
 }   
 
-.bckgrnd {
-    background-image: url(../Screens/1x/Zeichenfl%C3%A4che%201.png);
+.startscreen {
+    background-image: url(img/startscreen.png);
     background-size: cover;
 }
 
 .clouds {
     width: 300vw;
     height: 40vh;
-    background-image:url(../Screens/Level_1_Wolken_Transparent.png);
+    background-image:url(img/Level_1_Wolken_Transparent.png);
     background-size: auto 100%;
     position: relative;
     left: 0px;
 }
 
-.himmel {
+.sky {
     width: 300vw;
     height: 60vh;
-    background-image: url(../Screens/Level_1_Himmel.png);
+    background-image: url(img/Level_1_Himmel.png);
     background-size: auto 100%;
     position: relative;
     left 0px;
 }
 
-.baume {
+.tree {
     width: 300vw;
     height: 40vh;
-    background-image: url(../Screens/Level_1_B%C3%A4ume.png);
+    background-image: url(img/Level_1_tree.png);
     background-size: auto 100%;
     position: relative;
     left 0px;
 }
-.vordergrund {
+.underground {
     width: 300vw;
     height: 40vh;
-    background-image: url(../Screens/Level_1_Untergrund.png);
+    background-image: url(img/Level_1_Untergrund.png);
     background-size: auto 100%;
     position: relative;
     left 0px;
 }
 
-.gameover {
+.gameoverscreen {
     width: 100vw;
     height: 100vh;
-    background-image: url(../Screens/Game_Over_Screen.png);
+    background-image: url(img/Game_Over_Screen.png);
     background-size: auto 100%;
     position: relative;
     left 0px;
