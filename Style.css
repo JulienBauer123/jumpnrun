@@ -4,7 +4,26 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-}   
+}
+
+.hero {
+    background-image: url(img/Character_GIF.gif);
+    width: 20vw;
+    height: 20vh;
+    
+}
+    
+.trigger-left, .trigger-right  {
+    position: absolute;
+    bottom: 5vh;
+    height: 20vw;
+    width: 20vh; 
+}
+
+.trigger-right {right: 5vw;}
+.trigger-left {left: 5vw;}
+.mover {background-color: greenyellow;}
+.movel {background-color: orange;}
 
 .startscreen {
     background-image: url(img/startscreen.png);
@@ -54,6 +73,8 @@ html, body {
     position: relative;
     left 0px;
 }
+
+
 
 /***** eo GLOBALS *****/
 
